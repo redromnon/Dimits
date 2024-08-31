@@ -75,7 +75,6 @@ class TextToSpeechModel:
         self,
         model_path: Union[str, Path],
         config_path: Optional[Union[str, Path]] = None,
-        use_cpu: bool =True
     ):
         if config_path is None:
             config_path = f"{model_path}.json"
